@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight, Cloud, Server, Database, Shield } from 'lucide-react';
+import vigneshPhoto from '../assets/vignesh.jpg';
 
 const Hero = () => {
   return (
@@ -85,11 +86,11 @@ const Hero = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 glow-effect rounded-full z-20">
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500 via-purple-500 to-indigo-500 p-1">
                 <div className="h-full w-full rounded-full bg-[#0a0a0f] flex items-center justify-center overflow-hidden">
-                  {/* Placeholder Avatar - Replace src with actual image */}
+                  {/* Actual Avatar */}
                   <img 
-                    src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop" 
+                    src={vigneshPhoto} 
                     alt="Vignesh A"
-                    className="w-full h-full object-cover opacity-80 mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
+                    className="w-full h-full object-cover object-[80%_10%] opacity-90 mix-blend-luminosity hover:mix-blend-normal transition-all duration-500"
                   />
                 </div>
               </div>

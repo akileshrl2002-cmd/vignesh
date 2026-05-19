@@ -34,14 +34,14 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6 text-blue-400" />,
       title: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com"
+      value: "avickyvaishu22@gmail.com",
+      link: "mailto:avickyvaishu22@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6 text-purple-400" />,
       title: "Phone",
-      value: "+91 9876543210",
-      link: "tel:+919876543210"
+      value: "+91 6374658755",
+      link: "tel:+916374658755"
     },
     {
       icon: <LinkedinIcon className="w-6 h-6 text-[#0077b5]" />,
